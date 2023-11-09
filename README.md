@@ -1,4 +1,4 @@
-# Repository for Mobile Programming tasks documentation.
+# Mobile Programming
 
 05111940000057 - Khaela Fortunela
 
