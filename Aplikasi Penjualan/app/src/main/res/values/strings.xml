@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReceiptSystem</string>
+    <string name="nama_pembeli">Nama Pembeli :</string>
+    <string name="barang">Barang :</string>
+    <string name="jumlah_barang">Jumlah Barang :</string>
+    <string name="harga_barang_rp">Harga Barang (Rp) :</string>
+    <string name="bayar_rp">Bayar (Rp) :</string>
+</resources>
