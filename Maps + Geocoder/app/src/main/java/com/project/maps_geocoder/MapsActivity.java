@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.MenuProvider;
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
+import android.location.Location;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -16,6 +18,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -63,34 +66,38 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         Button geosearch = (Button) findViewById(R.id.btnSearch);
         geosearch.setOnClickListener(op);
+
+        Button switchLive = (Button) findViewById(R.id.btnSwitchtoLive);
+
+        switchLive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MapsActivity.this, DynamicGPS.class);
+                startActivity(intent);
+            }
+        });
     }
 
     View.OnClickListener op = new View.OnClickListener() {
         @Override
     public void onClick(View view) {
-//            int zoom;
-
             if(view.getId() == R.id.btnGo){
-//                zoom = 8;
                 sembunyikanKeyBoard(view);
                 gotoLokasi(8);
             }
             else if(view.getId() == R.id.btnZoomIn){
-//                zoom += 1;
-//                sembunyikanKeyBoard(view);
-//                gotoLokasi(zoom);
                 zoomCamera('+');
 
             }
             else if(view.getId() == R.id.btnZoomOut){
-//                zoom -= 1;
-//                sembunyikanKeyBoard(view);
-//                gotoLokasi(zoom);
                 zoomCamera('-');
             }
             else if (view.getId() == R.id.btnSearch) {
                 sembunyikanKeyBoard(view);
                 goCari();
+            }
+            else if (view.getId() == R.id.btnSwitchtoLive) {
+                setContentView(R.layout.gps_maps);
             }
         }
     };

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -29,6 +30,9 @@
             android:value="AIzaSyA1cOX6OIsPNwxoYCLesxsePRNce_o_UhM" />
 
         <activity
+            android:name=".DynamicGPS"
+            android:exported="false" />
+        <activity
             android:name=".MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
@@ -39,7 +43,8 @@
         </intent-filter>
 
         </activity>
-<!--        <activity-->
+        <activity android:name="com.project.maps_geocoder.MapsGPS" />
+        <!--        <activity-->
 <!--            android:name=".MainActivity"-->
 <!--            android:exported="true">-->
 <!--            <intent-filter>-->

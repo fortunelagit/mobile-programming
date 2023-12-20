@@ -142,6 +142,14 @@
             android:layout_toStartOf="@id/btnZoomIn"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/baseline_zoom_out_24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSwitchtoLive"
+            android:text="Live Tracking"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 
 
