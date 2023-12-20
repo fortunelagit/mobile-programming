@@ -12,4 +12,7 @@
 8. [Maps](https://github.com/fortunelagit/mobile-programming/tree/main/Maps_Geocoder)
 9. [Geocoder](https://github.com/fortunelagit/mobile-programming/tree/main/Maps_Geocoder)
 10. GPS
+11. Dynamic Marker
+12. JSON Parser
+13. Camera
 
