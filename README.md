@@ -13,8 +13,8 @@
 9. [Geocoder](https://github.com/fortunelagit/mobile-programming/tree/main/Maps_Geocoder)
 10. GPS
 11. Dynamic Marker
-12. [JSON Parser](https://github.com/fortunelagit/mobile-programming/tree/main/PetBreedApp%20(Json%20Parser%20%2B%20Camera)
-13. [Camera](https://github.com/fortunelagit/mobile-programming/tree/main/PetBreedApp%20(Json%20Parser%20%2B%20Camera)
+12. [JSON Parser][(https://github.com/fortunelagit/mobile-programming/tree/main/PetBreedApp%20(Json%20Parser%20%2B%20Camera)]
+13. [Camera][(https://github.com/fortunelagit/mobile-programming/tree/main/PetBreedApp%20(Json%20Parser%20%2B%20Camera)]
 
 All Application Demo: [link](https://drive.google.com/drive/folders/11KxdTUK1Df32SivQ0GVeHK-LftlaxcPW)
 
