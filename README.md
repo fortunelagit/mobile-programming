@@ -14,6 +14,12 @@
 ![Image 1](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_1.png)
 ![Image 2](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_2.png)
 ![Image 3](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_3.png)
+<div align="center">
+  <img src="https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_1.png" width="30%" alt="Image 1">
+  <img src="https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_2.png" width="30%" alt="Image 2">
+  <img src="https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_1.png" width="30%" alt="Image 3">
+</div>
+
 9. [Maps](https://github.com/fortunelagit/mobile-programming/tree/main/Maps%20%2B%20Geocoder%20%2B%20Simple%20GPS%20%2B%20Dynamic%20GPS)
 10. [Geocoder](https://github.com/fortunelagit/mobile-programming/tree/main/Maps%20%2B%20Geocoder%20%2B%20Simple%20GPS%20%2B%20Dynamic%20GPS)
 11. [Simple GPS](https://github.com/fortunelagit/mobile-programming/tree/main/Maps%20%2B%20Geocoder%20%2B%20Simple%20GPS%20%2B%20Dynamic%20GPS)
