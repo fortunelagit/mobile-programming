@@ -11,9 +11,6 @@
 7. [List View](https://github.com/fortunelagit/mobile-programming/tree/main/Dialog%20%2B%20ListView)
 
 8-11
-![Image 1](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_1.png)
-![Image 2](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_2.png)
-![Image 3](https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_3.png)
 <div align="center">
   <img src="https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_1.png" width="30%" alt="Image 1">
   <img src="https://github.com/fortunelagit/mobile-programming/blob/main/assets/8-11_2.png" width="30%" alt="Image 2">
